@@ -38,6 +38,9 @@
     font-size: xx-large;
 }
 
+.header__navbar:hover{
+    transform: skew(1deg, 1deg);
+}
 .header__navbar li fieldset {
     display: inline-block;
     border: transparent;
