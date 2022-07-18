@@ -59,7 +59,8 @@
     line-height: 2;
     text-align: center;
     font-size: xxx-large;
-    background-color: #2080ee;
+    background-image:-o-linear-gradient(black, white)
+/*     background-color: #2080ee;*/
 }
 
 .contenido__1 {
