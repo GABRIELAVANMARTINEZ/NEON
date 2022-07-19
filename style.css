@@ -177,6 +177,10 @@
     padding-top: 5rem;
 }
 
+.producto_2 img:hover, .producto_3 img:hover, .producto_4 img:hover, .producto_5 img:hover, .producto_6 img:hover, .producto_7 img:hover{
+    transform: skew(5deg,5deg);
+ }
+
 
 
 /*-----MEDIA QUERIE-----*/
