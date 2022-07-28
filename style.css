@@ -31,7 +31,7 @@
     padding: 5rem;
 }
 
-.header__navbar ul {
+.header__navbar { 
     padding: 4rem;
     list-style-type: none;
     text-align: right;
@@ -41,18 +41,18 @@
 .header__navbar:hover{
     transform: skew(1deg, 1deg);
 }
-.header__navbar li fieldset {
+/* .header__navbar fieldset {
     display: inline-block;
     border: transparent;
-}
+} */
 
 .header__navbar a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     background-color: transparent;
-    padding: 0.05rem;
-}
+/*     padding: 0.05rem;
+ */}
 
 
 /*----CONTENIDO---*/
@@ -178,7 +178,8 @@
 }
 
 .producto_2 img:hover, .producto_3 img:hover, .producto_4 img:hover, .producto_5 img:hover, .producto_6 img:hover, .producto_7 img:hover{
-    transform: skew(5deg,5deg);
+    transform: skew(0.5deg,0.5deg);
+    border: solid 2px white;
  }
 
 
