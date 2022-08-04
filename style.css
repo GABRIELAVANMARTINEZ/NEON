@@ -41,10 +41,7 @@
 .header__navbar:hover{
     transform: skew(1deg, 1deg);
 }
-/* .header__navbar fieldset {
-    display: inline-block;
-    border: transparent;
-} */
+
 
 .header__navbar a {
     color: white;
@@ -186,20 +183,41 @@
 
 /*-----MEDIA QUERIE-----*/
 
-@media screen and (min-width:480px) {
-    .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+
+
+    /* MEDIA PARA CELULAR */
+    @media (min-width: 320px) and (max-width:576px) {
+        .header {
+            flex-wrap: wrap;
+        }
+    
+        .header__navbar {
+            flex-wrap: wrap;
+        }
+    
+        .contenido__1 {
+            flex-wrap: wrap;
+        }  
     }
 
-    .header__navbar {
-        padding-right: 6rem;
+    /* MEDIA PARA TABLET */
+    @media (min-width: 577px) and (max: width 991px;){
+        .header{
+            flex-wrap: wrap;
+        }
+        
+    
+        .header__navbar {
+            flex-wrap: wrap; 
+        }
+    
+        .contenido__1 {
+            flex-wrap: wrap;
+        }  
     }
+    
 
-    .contenido__1 {
-        text-align: center;
-        font-size: small;
-    }
+
+
 
 }
