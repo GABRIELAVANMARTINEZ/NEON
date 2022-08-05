@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.body {
+  font-family: 'Bebas Neue', cursive;
+  display: grid;
+  grid-template-rows: auto;
+  background-image: url("./IMAGENES/11.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+/*--HEADER--*/
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 60rem; }
+
+/*---Navbar---*/
+.logo__sticky {
+  /* position:fixed; */
+  top: 0px;
+  padding: 5rem; }
+
+.header__navbar {
+  padding: 4rem;
+  list-style-type: none;
+  text-align: right;
+  font-size: xx-large; }
+
+.header__navbar:hover {
+  transform: skew(1deg, 1deg); }
+
+.header__navbar a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  /*     padding: 0.05rem;
+ */ }
+
+/*----CONTENIDO---*/
+.contenido {
+  line-height: 2;
+  text-align: center;
+  font-size: xxx-large;
+  background-image: -o-linear-gradient(black, white); }
+
+.contenido__1 {
+  line-height: 2;
+  text-align: center;
+  font-size: xxx-large; }
+
+.contenido__2 {
+  line-height: 2;
+  text-align: center;
+  font-size: xxx-large;
+  background-color: white; }
+
+/*-----FOOTER----*/
+.footer__flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  padding: 2rem;
+  color: white;
+  background-color: black; }
+
+.footer__creditos {
+  color: #20eee4;
+  background-color: black;
+  text-align: justify; }
+
+/*------SECCION CONTACTO------*/
+.formulario {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  background-color: black;
+  color: #F08;
+  border-style: dashed;
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem; }
+
+.formulario__1 {
+  padding: 2rem; }
+
+/*------SECCION FAQ------*/
+.titulo {
+  text-align: center;
+  padding: 2rem; }
+
+.contenido__faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center; }
+
+.contenidofaq__1,
+.contenidofaq__2,
+.contenidofaq__3 {
+  padding: 2rem; }
+
+/*------SECCION NOSOTROS------*/
+.contenido__nosotros {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+.contenido__nosotros1,
+.contenido__nosotros2,
+.contenido__nosotros3 {
+  padding: 1rem; }
+
+/*------SECCION PRODUCTOS------*/
+.productos {
+  grid-template-columns: 100px auto 100px;
+  grid-gap: 1rem;
+  text-align: center;
+  background-color: black;
+  color: white; }
+
+.productos h1 {
+  font-size: xxx-large;
+  padding-top: 2rem; }
+
+.productos h2 {
+  font-size: xx-large;
+  padding-top: 5rem; }
+
+.producto_2 img:hover, .producto_3 img:hover, .producto_4 img:hover, .producto_5 img:hover, .producto_6 img:hover, .producto_7 img:hover {
+  transform: skew(0.5deg, 0.5deg);
+  border: solid 2px white; }
+
+/* MEDIA PARA CELULAR */
+@media (min-width: 320px) and (max-width: 576px) {
+  .header {
+    flex-wrap: wrap; }
+  .header__navbar {
+    flex-wrap: wrap; }
+  .contenido__1 {
+    flex-wrap: wrap; } }
+
+/* MEDIA PARA TABLET */
+@media (min-width: 577px) and (max: width 991px) {
+  .header {
+    flex-wrap: wrap; }
+  .header__navbar {
+    flex-wrap: wrap; }
+  .contenido__1 {
+    flex-wrap: wrap; } }
